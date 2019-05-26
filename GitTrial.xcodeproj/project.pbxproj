@@ -12,6 +12,7 @@
 		58281393229AF8820048D705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58281391229AF8820048D705 /* Main.storyboard */; };
 		58281395229AF8820048D705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58281394229AF8820048D705 /* Assets.xcassets */; };
 		58281398229AF8820048D705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58281396229AF8820048D705 /* LaunchScreen.storyboard */; };
+		582813A0229AFABA0048D705 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828139F229AFABA0048D705 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		58281394229AF8820048D705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58281397229AF8820048D705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58281399229AF8820048D705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5828139F229AFABA0048D705 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		58281381229AF8810048D705 = {
 			isa = PBXGroup;
 			children = (
+				5828139F229AFABA0048D705 /* File.swift */,
 				5828138C229AF8810048D705 /* GitTrial */,
 				5828138B229AF8810048D705 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58281390229AF8810048D705 /* ViewController.swift in Sources */,
+				582813A0229AFABA0048D705 /* File.swift in Sources */,
 				5828138E229AF8810048D705 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GitTrial/Info.plist;
@@ -291,6 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = M.GitTrial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GitTrial/Info.plist;
@@ -309,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = M.GitTrial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
